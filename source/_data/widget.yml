@@ -1,0 +1,20 @@
+top:
+  - class_name: latestBB
+    id_name:
+    name: 短文
+    icon: fas fa-bolt
+    order: 2
+    html: |
+      <div class="swiper-container swiper-container-aside">
+        <div class="swiper-wrapper swiper-weapper-aside"></div>
+      </div>
+      <a class="bb-btn button--animated" href="/talking/" title="查看全部"><i class="far fa-hand-point-right fa-fw"></i> 查看更多 </a>
+      <script>
+        window.kkBBConfig = {
+          limit: 7,
+          blog:'/talking/',
+          api_url:
+            'https://636c-cloudbase-baas-6g56sw0n48c42844-1251754947.tcb.qcloud.la/json/bber.json?sign=2f462069d51316ecbf90c134c58ba6d8&t=1666538506'
+        }
+      </script>
+      <script src="https://cdn.jsdelivr.net/npm/butterfly-bber-swiper/dist/index.min.js"></script>

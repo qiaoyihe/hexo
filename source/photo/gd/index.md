@@ -2,13 +2,14 @@
 comments: false
 aside: false
 ---
+### [◀️返回](/photo/)
 {% gallery %}
-![](https://cdn.jsdelivr.net/gh/qiaoyihe/Figure-bed/xc/gd/1.jpg)
-![](https://cdn.jsdelivr.net/gh/qiaoyihe/Figure-bed/xc/gd/2.jpg)
-![](https://cdn.jsdelivr.net/gh/qiaoyihe/Figure-bed/xc/gd/3.jpg)
-![](https://cdn.jsdelivr.net/gh/qiaoyihe/Figure-bed/xc/gd/4.jpg)
-![](https://cdn.jsdelivr.net/gh/qiaoyihe/Figure-bed/xc/gd/5.jpg)
-![](https://cdn.jsdelivr.net/gh/qiaoyihe/Figure-bed/xc/gd/6.jpg)
-![](https://cdn.jsdelivr.net/gh/qiaoyihe/Figure-bed/xc/gd/7.jpg)
-![](https://cdn.jsdelivr.net/gh/qiaoyihe/Figure-bed/xc/gd/8.jpg)
+![](https://qiaoyihe-1314215665.cos.ap-guangzhou.myqcloud.com/xc/gd/1.webp)
+![](https://qiaoyihe-1314215665.cos.ap-guangzhou.myqcloud.com/xc/gd/2.webp)
+![](https://qiaoyihe-1314215665.cos.ap-guangzhou.myqcloud.com/xc/gd/3.webp)
+![](https://qiaoyihe-1314215665.cos.ap-guangzhou.myqcloud.com/xc/gd/4.webp)
+![](https://qiaoyihe-1314215665.cos.ap-guangzhou.myqcloud.com/xc/gd/5.webp)
+![](https://qiaoyihe-1314215665.cos.ap-guangzhou.myqcloud.com/xc/gd/6.webp)
+![](https://qiaoyihe-1314215665.cos.ap-guangzhou.myqcloud.com/xc/gd/7.webp)
+![](https://qiaoyihe-1314215665.cos.ap-guangzhou.myqcloud.com/xc/gd/8.webp)
 {% endgallery %}
