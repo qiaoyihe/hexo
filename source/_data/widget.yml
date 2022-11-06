@@ -1,7 +1,7 @@
 top:
   - class_name: latestBB
     id_name:
-    name: 短文
+    name: 公告
     icon: fas fa-bolt
     order: 2
     html: |

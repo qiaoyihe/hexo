@@ -15,7 +15,7 @@ menu:
      留言板: /messageboard || fa-fw fas fa-envelope
    其他||fas fa-list:
      My相册: /photo/ || fas fa-image
-     即刻短文: /talking || fa fa-commenting
+     公告: /talking || fa fa-commenting
      待: / || fas fa-tags
 
 

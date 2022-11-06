@@ -1,6 +1,6 @@
 ---
-title: 短文
-type: 短文
+title: 公告
+type: 公告
 noDate: 'true'
 comments: 'false'
 aside: false
@@ -8,7 +8,7 @@ aside: false
 
 
 {% note success %}
-短文内容来自 乔一禾 的自言自语。🤪🤪
+公告内容来自 乔一禾。🤪🤪
 {% endnote %}
 <div id='speak'>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/kuole-o/bber-ispeak@main/dist/ispeak-bber.min.js" charset="utf-8" ></script>
