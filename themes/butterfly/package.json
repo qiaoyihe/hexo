@@ -1,11 +1,44 @@
 {
-  "name": "hexo-theme-butterfly",
-  "version": "4.5.1",
-  "description": "A Simple and Card UI Design theme for Hexo",
-  "main": "package.json",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_from": "hexo-theme-butterfly",
+  "_id": "hexo-theme-butterfly@3.8.3",
+  "_inBundle": false,
+  "_integrity": "sha512-s+o4NfFq+chpYdpNelpLSt+b8ga/sCZCtl51UTP8pDxjCNUKPKA04wAL0+GVx/VnDGpcWWxYTfrgnsPKo+GbPQ==",
+  "_location": "/hexo-theme-butterfly",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "hexo-theme-butterfly",
+    "name": "hexo-theme-butterfly",
+    "escapedName": "hexo-theme-butterfly",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
   },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/hexo-theme-butterfly/-/hexo-theme-butterfly-3.8.3.tgz",
+  "_shasum": "4527783e79e518f72f7a27ecbe638f18a62ff51c",
+  "_spec": "hexo-theme-butterfly",
+  "_where": "G:\\Blog\\qiaoyihe",
+  "author": {
+    "name": "Jerry",
+    "email": "i@immyw.com"
+  },
+  "bugs": {
+    "url": "https://github.com/jerryc127/hexo-theme-butterfly/issues",
+    "email": "btf@immyw.com"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "hexo-renderer-pug": "^2.0.0",
+    "hexo-renderer-stylus": "^2.0.1"
+  },
+  "deprecated": false,
+  "description": "A Simple and Card UI Design theme for Hexo",
+  "homepage": "https://butterfly.js.org/",
   "keywords": [
     "hexo",
     "theme",
@@ -14,19 +47,15 @@
     "Jerry",
     "hexo-theme-butterfly"
   ],
+  "license": "Apache-2.0",
+  "main": "package.json",
+  "name": "hexo-theme-butterfly",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/jerryc127/hexo-theme-butterfly.git"
+    "type": "git",
+    "url": "git+https://github.com/jerryc127/hexo-theme-butterfly.git"
   },
-  "bugs": {
-    "url": "https://github.com/jerryc127/hexo-theme-butterfly/issues",
-    "email": "my@crazywong.com"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "hexo-renderer-stylus": "^2.1.0",
-    "hexo-renderer-pug": "^3.0.0"
-  },
-  "homepage": "https://butterfly.js.org/",
-  "author": "Jerry <my@crazywong.com>",
-  "license": "Apache-2.0"
+  "version": "3.8.3"
 }

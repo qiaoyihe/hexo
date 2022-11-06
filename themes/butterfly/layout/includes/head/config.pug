@@ -9,9 +9,9 @@
       hits: theme.algolia_search.hits,
       // search languages
       languages: {
-        input_placeholder: _p("search.algolia_search.input_placeholder"),
-        hits_empty: _p("search.algolia_search.hits_empty"),
-        hits_stats: _p("search.algolia_search.hits_stats"),
+        input_placeholder: _p("algolia_search.input_placeholder"),
+        hits_empty: _p("algolia_search.hits_empty"),
+        hits_stats: _p("algolia_search.hits_stats")
       }
     })
   }
@@ -19,11 +19,10 @@
   let localSearch = 'undefined';
   if (theme.local_search && theme.local_search.enable) {
     localSearch = JSON.stringify({
-      path: theme.local_search.CDN ? theme.local_search.CDN : config.root + config.search.path,
-      preload: theme.local_search.preload,
+      path: config.search.path,
       languages: {
         // search languages
-        hits_empty: _p("search.local_search.hits_empty"),
+        hits_empty: _p("local_search.hits_empty")
       }
     })
   }
@@ -113,12 +112,17 @@ script.
     lightbox: '!{ theme.medium_zoom ? "mediumZoom" : (theme.fancybox ? "fancybox" : "null" )}',
     Snackbar: !{Snackbar},
     source: {
+      jQuery: '!{url_for(theme.CDN.jquery)}',
       justifiedGallery: {
-        js: '!{url_for(theme.asset.flickr_justified_gallery_js)}',
-        css: '!{url_for(theme.asset.flickr_justified_gallery_css)}'
+        js: '!{url_for(theme.CDN.justifiedGallery_js)}',
+        css: '!{url_for(theme.CDN.justifiedGallery_css)}'
+      },
+      fancybox: {
+        js: '!{url_for(theme.CDN.fancybox)}',
+        css: '!{url_for(theme.CDN.fancybox_css)}'
       }
     },
     isPhotoFigcaption: !{theme.photofigcaption},
     islazyload: !{theme.lazyload.enable},
-    isAnchor: !{theme.anchor.auto_update || false}
+    isanchor: !{theme.anchor}
   }
