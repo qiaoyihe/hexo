@@ -9,7 +9,7 @@ menu:
      归档: /archives/ || fas fa-archive
      分类: /categories/ || fas fa-folder-open 
    社交||fas fa-list:
-     小伙伴: /link/ || fas fa-link
+     小伙伴: /links/ || fas fa-link
      关于我: /about/ || fa-fw fas fa-user
      心情墙: /mood/ || fas fa-heart
      留言板: /messageboard || fa-fw fas fa-envelope
