@@ -355,7 +355,7 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: cloudbase-baas-6g56sw0n48c42844
+  envId: https://my-repository-kappa-opal.vercel.app/
   region:
   visitor: false
   option:
