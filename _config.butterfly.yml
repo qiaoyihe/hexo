@@ -355,7 +355,7 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: https://my-repository-kappa-opal.vercel.app/
+  envId: https://cc.yyisq.com/
   region:
   visitor: false
   option:
