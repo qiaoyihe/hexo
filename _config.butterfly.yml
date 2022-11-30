@@ -355,7 +355,7 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: http://twikoo.yyisq.com/
+  envId: https://twikoo.yyisq.com/
   region:
   visitor: false
   option:
