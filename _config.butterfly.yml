@@ -355,7 +355,11 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
+<<<<<<< HEAD
   envId: http://twikoo.yyisq.com/
+=======
+  envId: https://cc.yyisq.com/
+>>>>>>> f7b1be3e15e0347b47331b5be016f9d5ae68f032
   region:
   visitor: false
   option:
